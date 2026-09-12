@@ -16,7 +16,6 @@
 
 
 
-
 # AltServer macOS 27 Anisette Fix
 
 [English](README.md) | [한국어](README.ko.md)
