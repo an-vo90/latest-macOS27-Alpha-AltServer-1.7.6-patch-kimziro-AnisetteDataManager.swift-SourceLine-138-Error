@@ -1,3 +1,22 @@
+# 🚀 Pre-Compiled Fix: AltServer 1.7.6 for macOS 27 / iOS 27
+
+> **Fixes the `AnisetteDataManager.swift:138` (machineID) crash!**
+> This fork provides a ready-to-use, patched version of AltServer 1.7.6 (Build 94). You do **not** need to compile the source code yourself. The kimziro anisette fix is already injected.
+
+### Quick Install Guide
+
+1. **Download** the pre-compiled `AltServer-macOS27-v3.1.zip` from the files above.
+2. **Extract** the ZIP file.
+3. **Move** the extracted `AltServer.app` into your **Applications** (`/Applications`) folder.
+4. **Bypass Gatekeeper:** Because this is a modified app, macOS will flag it as damaged. Open **Terminal** and run this exact command to remove the quarantine flag:
+   ```bash
+   xattr -cr /Applications/AltServer.app
+
+
+
+
+
+
 # AltServer macOS 27 Anisette Fix
 
 [English](README.md) | [한국어](README.ko.md)
